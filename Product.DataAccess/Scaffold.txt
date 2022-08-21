@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Tables Product -Context ProductDbContext -Force -Connection "Server=Localhost;Initial Catalog=ProductManagement;User ID=Saga;Password=Ite12345$;"

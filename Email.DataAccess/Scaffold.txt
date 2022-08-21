@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Tables Email -Context EmailDbContext -Force -Connection "Server=Localhost;Initial Catalog=EmailManagement;User ID=Saga;Password=Ite12345$;"

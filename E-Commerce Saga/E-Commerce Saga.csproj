@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>E_Commerce_Saga</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Email.SDK\Email.SDK.csproj" />
+    <ProjectReference Include="..\Identity.SDK\Identity.SDK.csproj" />
+    <ProjectReference Include="..\Product.SDK\Product.SDK.csproj" />
+    <ProjectReference Include="..\Shop.SDK\Shop.SDK.csproj" />
+  </ItemGroup>
+
+</Project>

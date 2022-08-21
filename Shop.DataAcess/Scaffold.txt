@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Tables c -Context ShopDbContext -Force -Connection "Server=Localhost;Initial Catalog=ShopManagement;User ID=Saga;Password=Ite12345$;"

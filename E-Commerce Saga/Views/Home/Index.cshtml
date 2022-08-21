@@ -1,0 +1,55 @@
+﻿@model RegistrationModel;
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">E-Commerce Saga</h1>
+</div>
+
+@using (Html.BeginForm("Register", "Home", FormMethod.Post))
+{
+    <div class="row">
+        <div class="col-3">
+            @Html.LabelFor(model => model.Email, "Email")
+        </div>
+         <div class="col-9">
+            @Html.TextBoxFor(model => model.Email)
+            @Html.ValidationMessageFor(model => model.Email)
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-3">
+            @Html.LabelFor(model => model.Password, "Password")
+        </div>
+        <div class="col-9">
+            @Html.PasswordFor(model => model.Password)
+            @Html.ValidationMessageFor(model => model.Password)
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-3">
+            @Html.LabelFor(model => model.ShopName, "ShopName")
+        </div>
+        <div class="col-9">
+            @Html.TextBoxFor(model => model.ShopName)
+            @Html.ValidationMessageFor(model => model.ShopName)
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-3">
+            @Html.LabelFor(model => model.ProductName, "ProductName")
+        </div>
+        <div class="col-9">
+            @Html.TextBoxFor(model => model.ProductName)
+            @Html.ValidationMessageFor(model => model.ProductName)
+        </div>
+    </div>
+    <br />
+
+    <button type="submit">Register</button>
+}

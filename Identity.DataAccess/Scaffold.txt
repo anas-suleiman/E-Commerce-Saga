@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext -Provider Microsoft.EntityFrameworkCore.SqlServer -Tables Identity -Context IdentityDbContext -Force -Connection "Server=Localhost;Initial Catalog=IdentityManagement;User ID=Saga;Password=Ite12345$;"
